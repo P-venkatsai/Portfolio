@@ -100,28 +100,28 @@ export const RESUME_LINK: ExperienceDetailType[] = [
   {
     title: "View Full Resume",
     notHighlightDiv: true,
-    redirect: "/src/images/VenkatSai_Putagumpalla_resume.pdf",
+    redirect: "./src/images/VenkatSai_Putagumpalla_resume.pdf",
   },
 ];
 
 export const PROJECTS_DETAILS: ExperienceDetailType[] = [
   {
     title: "Twitter Clone Engine",
-    image: "/src/images/twitterClone.jpg",
+    image: "./src/images/twitterClone.jpg",
     description:
       "Leveraged Erlang and Zipf Distribution in a Distributed System framework to build a scalable Twitter Clone engine, achieving a 25% boost in tweet delivery speed via server-side optimizations and caching, supporting 10k concurrent users with full features and real-time interactions.",
     redirect: "https://github.com/P-venkatsai/Twitter_Clone",
   },
   {
     title: "Movie Reviews Website",
-    image: "/src/images/movieReviews.jpg",
+    image: "./src/images/movieReviews.jpg",
     description:
       "Built a dynamic Web App integrating with The Movie Database (TMDB) via API using JavaScript, BootStrap 5, and Node.js, enhancing UX through robust authentication and optimizing website performance by 40% with caching and 50% faster page loads via lazy loading.",
     redirect: "https://projectmoviess.netlify.app",
   },
   {
     title: "Gator Taxi",
-    image: "/src/images/gatorTaxi.jpg",
+    image: "./src/images/gatorTaxi.jpg",
     description:
       "Engineered ride-request system for Gator Taxi, managing 2000+ riders, implementing Red-Black Tree and custom min-heap for optimized ride selection. Integrated both data structures achieving O(log n) time complexity for CRUD operations.",
     redirect: "https://github.com/P-venkatsai/GatorTaxi",
