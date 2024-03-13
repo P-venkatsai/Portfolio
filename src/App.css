@@ -1,0 +1,263 @@
+.bg-slate-900 {
+  background-color: rgba(15, 23, 42, 1);
+  /* height: 100vh; */
+  font-family: '__inter_20b187', sans-serif;
+  font-feature-settings: "ss03","cv02","cv11";
+  color:rgb(148,163,184,1)
+}
+
+.text-xs {
+  font-size: .75rem;
+  line-height: 1rem;
+}
+
+.footerImage
+{
+  display: none;
+}
+
+.px-n {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+
+.tracking-widest {
+  letter-spacing: .1em;
+}
+
+.teal_backGround
+{
+  background-color: rgba(45,212,191,0.1);
+}
+
+.text-slate-500 {
+  color: rgb(100,116,139,1);
+}
+
+.active-color
+{
+  color:rgb(226, 232, 240, 1)!important;
+}
+.active-indicator-div
+{
+    width: 4rem;
+    height: 2px;
+    margin-right: 20px;
+    display: inline-block;
+    background-color: rgb(226, 232, 240, 1);
+    transition:width 0.3s ease;
+}
+
+.mt-6
+{
+  margin-top: 5rem!important;
+}
+
+.indicator-div
+{
+  width: 2rem;
+  height: 2px;
+  margin-right: 20px;
+  display: inline-block;
+  background-color: rgb(71, 85, 105,1);
+  transition:width 0.3s ease;
+}
+
+.mainClasses
+{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstClass
+{
+  justify-content : space-between;
+}
+
+
+
+.noScrollBar {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  ::-webkit-scrollbar {
+      display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge, and Firefox */
+  /* Note: This may not work in all versions of Firefox */
+  scrollbar-width: none;
+}
+
+.skills
+{
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  color: rgb(94, 234, 212);
+  background: rgb(45, 212, 191, 0.1);
+  font-weight: 500;
+  border-radius: 9999px;
+  line-height: 1.5rem !important;
+  margin-bottom: 0.5rem;
+}
+
+.customDivStyle
+{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.defaultIconStyle
+{
+  margin-left: 0.2rem;
+  margin-top: 0rem;
+  transition: margin-top 0.1s ease, margin-left 0.1s ease; 
+}
+
+.hoverIconStyle
+{
+  margin-top: -0.4rem;
+  margin-left: 0.6rem;
+  transition: margin-top 0.1s ease, margin-left 0.1s ease; 
+}
+
+.rightSection
+{
+  margin-top: 6rem;
+}
+
+#highlightMouse
+{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 10;
+  pointer-events: none;
+  /* background: radial-gradient(600px at 1039px 37px, rgba(29, 78, 216, 0.15), transparent 80%); */
+  /* transition-duration: .3s; */
+}
+
+.Redirect:hover
+{
+  color: rgb(94, 234, 212)!important;
+}
+
+.slidingWindow
+{
+  display: none!important;
+}
+
+.shortSummary
+{
+  padding-left: 1rem;
+  width: 60%
+}
+
+@media (min-width: 992px) {
+  .firstClass {
+      position: sticky;
+      top: 0px;
+      height: 100vh;
+  }
+  .slidingWindow
+  {
+    display: block!important;
+  }
+}
+
+@media (max-width: 991px) {
+  .mainClasses
+  {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .px-n
+  {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem !important;
+  }
+}
+
+
+
+.innerClass
+{
+  cursor: pointer;
+}
+
+.displayHeaders
+{
+  display: none;
+  z-index: 1000;
+  background-color: rgba(15,23,42,.96);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* background-color: rgba(15,23,42,1); */
+}
+
+@media (max-width: 575px)
+{
+  .headerImage
+  {
+    display: none;    
+  }
+  .footerImage
+  {
+    display: block;
+  }
+  .shortSummary
+  {
+    width: 85%;
+  }
+  .px-n
+  {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem !important;
+  }
+  .mainContainer
+  {
+    padding-left: 0rem!important;
+  }
+  #redirectIcons
+  {
+    padding-left: 1rem;
+  }
+  .displayHeaders
+  {
+    position: sticky;
+    top:0px;
+    display: block;
+  }
+}
+
+
+@font-face{font-family:__inter_20b187;src:url(./Fonts/730e8169368baf37-s.p.woff2) 
+  format("woff2");font-display:swap}
+  @font-face{font-family:__inter_20b187;src:url(./Fonts/f1f0c35b32161446-s.p.woff2) 
+    format("woff2");font-display:swap;font-weight:400;font-style:normal}
+    @font-face{font-family:__inter_20b187;src:url(./Fonts/d593a8df799d4ab1-s.p.woff2) 
+      format("woff2");font-display:swap;font-weight:400;font-style:italic}
+      @font-face{font-family:__inter_20b187;src:url(./Fonts/dc792b508e6f91c7-s.p.woff2) 
+        format("woff2");font-display:swap;font-weight:500;font-style:normal}
+        @font-face{font-family:__inter_20b187;src:url(./Fonts/84d3493a9fd22f1c-s.p.woff2) 
+          format("woff2");font-display:swap;font-weight:500;font-style:italic}
+          @font-face{font-family:__inter_20b187;src:url(./Fonts/fcb100c7607696fd-s.p.woff2) 
+            format("woff2");font-display:swap;font-weight:600;font-style:normal}
+            @font-face{font-family:__inter_20b187;src:url(./Fonts/d90f295d0c348006-s.p.woff2) 
+              format("woff2");font-display:swap;font-weight:600;font-style:italic}
+            @font-face{font-family:__inter_20b187;src:url(./Fonts/579e0f95cacfae57-s.p.woff2) 
+              format("woff2");font-display:swap;font-weight:700;font-style:normal}
+              @font-face{font-family:__inter_20b187;src:url(./Fonts/828a494e04a45cbd-s.p.woff2) 
+                format("woff2");font-display:swap;font-weight:700;font-style:italic}
+                @font-face{font-family:__inter_Fallback_20b187;src:local("Arial");
+                  ascent-override:90.00%;descent-override:22.43%;
+                  line-gap-override:0.00%;size-adjust:107.64%}.__className_20b187{
+                    font-family:__inter_20b187,__inter_Fallback_20b187}.__variable_20b187{
+                      --font-inter:"__inter_20b187","__inter_Fallback_20b187"}             
+                      
+                
+
+  
