@@ -80,7 +80,7 @@ export const EXPERIENCE_DETAILS: ExperienceDetailType[] = [
   {
     title: "Software Engineer Intern",
     company: "Versatile Mobitech",
-    duration: "Sep 2020 - May 2021",
+    duration: "Aug 2020 - May 2021",
     redirect: "https://www.versatilemobitech.com/",
     description:
       "Achieved a 27% boost in conversion rates by simplifying checkout processes and implementing real-time inventory management. Reduced workload by 30% through automated invoicing with node-schedule and ensured timely payments via SMTP email reminders.",
