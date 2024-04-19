@@ -92,6 +92,8 @@ export const EXPERIENCE_DETAILS: ExperienceDetailType[] = [
       "Node.js",
       "GitHub",
       "MongoDB",
+      "C#",
+      ".NET",
     ],
   },
 ];

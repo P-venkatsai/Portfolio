@@ -6,6 +6,8 @@ import Headings from "./Components/Headings";
 import ListGroup from "./Components/ListGroup";
 import Navbar from "./Components/Navbar";
 import Svg from "./Components/Svg";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Projects from "./Components/Projects";
 
 import {
   GITHUB_ICON,
@@ -208,9 +210,9 @@ function App() {
               </div>
               {handleCreateCustomDiv(EXPERIENCE_DETAILS)}
             </div>
-            <div className="resumeLink">
+            {/* <div className="resumeLink">
               {handleCreateCustomDiv(RESUME_LINK)}
-            </div>
+            </div> */}
             <div id="2" className="projects rightSection scroll-item">
               <div className="displayHeaders mb-3">
                 <Headings
@@ -251,4 +253,16 @@ function App() {
   );
 }
 
-export default App;
+function MainApp() {
+  const Home = () => <h1>Home Page</h1>;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/Portfolio" element={<App />} />
+        <Route path="/Portfolio/about" element={<Projects />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default MainApp;
