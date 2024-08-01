@@ -134,6 +134,7 @@ function App() {
                   heading_size={5}
                   padding_left="1rem"
                 >
+                  
                   {POSITION}
                 </Headings>
                 {<p className="mt-4 shortSummary">{SHORT_SUMMARY}</p>}

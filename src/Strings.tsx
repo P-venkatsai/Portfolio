@@ -42,18 +42,6 @@ export const EXPERIENCE_DETAILS: ExperienceDetailType[] = [
       "https://www.tcs.com/what-we-do/products-platforms/tcs-mastercraft/solution/mastercraft-dataplus-data-privacy-solution",
     description:
       "After successfully completing my initial 6-month tenure, I was promoted to Systems Engineer. In this role, I was responsible for managing and maintaining the entire masking aspect of Dataplus. Through my efforts, I successfully implemented several features from earlier versions of the software into the latest version, resulting in significant improvements to its functionality.",
-    skills: [
-      "JavaScript",
-      "TypeScript",
-      "HTML & CSS",
-      "Angular",
-      "Spring Boot",
-      "Maven",
-      "Jenkins",
-      "Python",
-      "SharePoint",
-      "XML",
-    ],
   },
   {
     title: "Assistant Systems Engineer",
@@ -63,38 +51,22 @@ export const EXPERIENCE_DETAILS: ExperienceDetailType[] = [
       "https://www.tcs.com/what-we-do/products-platforms/tcs-mastercraft/solution/mastercraft-dataplus-data-privacy-solution",
     description:
       "As an entry-level employee at TCS, my initial three months were dedicated to learning and understanding the concepts and applications of Dataplus and the process of data masking. In the following three months, I was able to apply this knowledge by actively working on and contributing to the development of new features for Dataplus.",
-    skills: [
-      "JavaScript",
-      "TypeScript",
-      "HTML & CSS",
-      "Angular",
-      "Spring Boot",
-      "Maven",
-      "Jenkins",
-      "Python",
-      "SharePoint",
-      "XML",
-      "Tortoise SVN",
-    ],
   },
   {
-    title: "Software Engineer Intern",
+    title: "Software Engineer",
     company: "Versatile Mobitech",
     duration: "Aug 2020 - May 2021",
     redirect: "https://www.versatilemobitech.com/",
     description:
       "Achieved a 27% boost in conversion rates by simplifying checkout processes and implementing real-time inventory management. Reduced workload by 30% through automated invoicing with node-schedule and ensured timely payments via SMTP email reminders.",
-    skills: [
-      "JavaScript",
-      "TypeScript",
-      "HTML & CSS",
-      "React",
-      "Node.js",
-      "GitHub",
-      "MongoDB",
-      "C#",
-      ".NET",
-    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "Versatile Mobitech",
+    duration: "Apr 2019 - May 2020",
+    redirect: "https://www.versatilemobitech.com/",
+    description:
+      "Implemented user authentication and access control, including role-based permissions and single sign-on functionality. Also automated system administration tasks, improving efficiency and reducing manual effort, and followed Agile practices to ensure consistent, high-quality releases.",
   },
 ];
 
